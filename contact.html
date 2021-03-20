@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>checkOut</title>
+  <link rel="stylesheet" href="css/contact.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <section>
+
+    <!-- NAVIGATION BAR -->
+
+    <section class="menu">
+      <div class="container-fluid ">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="index.html" style="font-size: 2.25rem;">Sacha Delabre</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link " href="sales.html" style="color:red;">Shop</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Gallery
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="year1.html">Year1</a>
+                  <a class="dropdown-item" href="year2.html">Year2</a>
+                  <a class="dropdown-item" href="year3.html">Year3</a>
+                </div>
+              </li>
+              <li class="nav-item cart">
+                <a class="nav-link active" href="bio.html">About</a>
+              </li>
+
+              <li class="nav-item cart">
+                <a class="nav-link active" href="contact.html">Checkout <span class="cart-counter">0</span></a>
+              </li>
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+  </section>
+
+  <section>
+
+    <div class="container">
+      <div class="col yourOrder">
+        <h2> <b> 👣Your Order👣 </b> </h2>
+      </div>
+    </div>
+
+  </section>
+
+  <br>
+
+  <section class="pictures">
+    <div class="container">
+      <div class="row gallery cart-items">
+
+      </div>
+
+    </div>
+  </section>
+  <br>
+
+  <section class="formSection">
+    <form class="" action="index copy.php" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name.." required> <br>
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Your Email.." required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> <br>
+      <label for="phoneNumber">Phone number(optional)</label>
+      <input type="number" id="phoneNumber" name="phoneNumber" placeholder="Phone number.."> <br>
+      <label for="orderRequest">How many of each?</label>
+      <textarea placeholder="EG: Ludwïg - x3" rows="5" cols="60" name="orderRequest" id="orderRequest" required></textarea><br>
+      <input type="submit" value="submit" id="submit">
+    </form>
+  </section>
+
+
+
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <!-- LINK TO JAVASCRIPT PAGE BELOW -->
+
+  <script src="contact.js" charset="utf-8"></script>
+  <script src="sacha.js" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    $(window).on("beforeunload", function() {
+      localStorage.clear();
+    });
+  </script>
+
+</body>
+
+</html>

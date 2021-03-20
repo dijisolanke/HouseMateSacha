@@ -1,0 +1,65 @@
+/* YOU DID A NAUGHTY THING AND STYLED THE COLOR FOR SHOP IN NAVBAR INLINE */
+
+
+/* STYLING FOR NAVBAR */
+
+.menu{
+  font-size: 1.5rem;
+  position: fixed;
+  overflow: visible;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+  top: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* GIFF STYLING */
+
+.giffBox{
+  display: flex;
+  justify-content: center;
+  margin-top: 283px;
+}
+.box{
+  height: 50px;
+  width: 50px;
+  background-color: #120801;
+  position: relative;
+  z-index: 1;
+  right: 50px;
+  top: 250px
+}
+.title{
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+  font-family: 'Inconsolata', monospace;
+
+}
+
+/* SALES ITEM SECTION */
+
+img{
+  height: 300px;
+}
+.productSecton{
+  position: relative;
+  overflow:auto;
+  width: 100%;
+}
+.slideshow{
+  display: flex;
+  height: 550px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.blu{
+  font-family: 'Inconsolata', monospace;
+  height: 550px;
+  position: relative;
+  margin-top: 50px;
+  display: inline-block;
+  padding: 6%;
+}

@@ -1,0 +1,102 @@
+/* YOU DID A NAUGHTY THING AND STYLED THE COLOR FOR SHOP IN NAVBAR INLINE */
+
+.menu {
+  font-size: 1.5rem;
+  position: fixed;
+  overflow: visible;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+  top: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+.dropdown{
+  z-index: 3;
+}
+
+.instructions-title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 160px;
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+}
+
+.instructions {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+}
+
+.giffBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  height: 350px;
+  padding-bottom: 5%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0 1%;
+  font-family: 'Inconsolata', monospace;
+}
+
+
+.sale-card {
+  margin: 3% ;
+}
+
+/* YOU OVERRODE BOOTSTRAP CODE WITH LINE BELOW */
+.card {
+  border-radius: 9.25rem;
+}
+
+.first-card {
+  margin: auto;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+.secondSection {
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  margin-right: 5%
+}
+
+.socials a {
+  margin: 0 1%;
+  color: #7aa8b3;
+}
+
+/* INSTRUCTIONS FOR MOBILE */
+
+
+@media only screen and (max-width: 580px){
+  .sale-card, .secondSection{
+    margin: 0 0 0 16%;
+  }
+}
+
+/* @media screen and (max-width: 500px){
+  .firs-card{
+    background-color: red;
+  }
+} */
+
+@media only screen and (max-width: 500px), screen and (max-height:740px){
+  .firs-card{
+    margin-right: 3100px;
+  }
+}
