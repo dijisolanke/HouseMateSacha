@@ -39,6 +39,9 @@
   height: 350px;
   padding-bottom: 5%;
 }
+.giffBox > img{
+  height: 350px;
+}
 
 .title {
   display: flex;
